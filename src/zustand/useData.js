@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 const useData = create((set) => ({
-  backendUrl: "http://localhost:8000",
+  backendUrl: "https://friend-backend-979l.onrender.com",
   setBackendurl: (url) => set({ backendUrl: url }),
 
 
